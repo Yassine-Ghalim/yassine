@@ -1,0 +1,45 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Modifiez la valeur de minmax en fonction de vos besoins */
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden; /* Pour empêcher le contenu de déborder */
+}
+
+.product-details {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.product-description {
+  margin-top: 10px; /* Ajoutez une marge en haut pour la description */
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-category {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product-price img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}

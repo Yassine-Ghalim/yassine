@@ -1,0 +1,34 @@
+.white-background{
+background-color: white;
+
+}
+.product-container {
+    padding: 20px; /* Ajoute du padding autour du contenu */
+  }
+  
+  .product-item {
+    background-color: #fff; /* Fond blanc pour le contenu */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour le contenu */
+    padding: 15px; /* Ajoute du padding à l'intérieur du contenu */
+    margin-bottom: 20px; /* Espacement en bas entre chaque élément */
+  }
+  
+  .product-item img {
+    max-width: 200px;
+    max-height: 100px;
+  }
+  
+  .product-item h4 {
+    margin-top: 10px; /* Espacement au-dessus du titre */
+    margin-bottom: 5px; /* Espacement en dessous du titre */
+  }
+  
+  .product-item p {
+    margin-bottom: 10px; /* Espacement en dessous du prix */
+  }
+  
+  .product-item button {
+    margin-top: 10px; /* Espacement au-dessus du bouton */
+  }
+  

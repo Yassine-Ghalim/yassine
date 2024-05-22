@@ -1,0 +1,21 @@
+<br><br>
+<div class="product-list">
+    <div class="product-item" *ngFor="let product of filteredProducts">
+      <div class="product-price">
+        <img [src]="product.img" alt="{{ product.name }}" class="img-fluid" />
+      </div>
+      <div class="product-details">
+        <div class="product-name">{{ product.name }}</div>
+        <div class="product-category">Catégorie: {{ product.category }}</div>
+        <div class="product-price">Prix: {{ product.price }}€</div>
+        <div class="quantity text-danger custom-product-quantity"><b>Quantité disponible: {{ product.quantity }}</b></div>
+       <div> <details class="accordion">
+        <summary>Détails du produit</summary>
+        <div class="accordion-body">
+          <p>{{ product.description }}</p>
+        </div>
+      </details></div>
+      </div>
+    </div>
+  </div>
+  

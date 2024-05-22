@@ -1,0 +1,35 @@
+<div class="container mt-5 text-center">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form (ngSubmit)="onSubmit()" class="border rounded p-4 custom-form">
+        <div class="mb-3">
+          <label for="name" class="form-label custom-label">Nom du produit</label>
+          <input type="text" class="form-control form-control-sm custom-input" id="name" [(ngModel)]="newProduct.name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label custom-label">Description</label>
+          <textarea class="form-control form-control-sm custom-input" id="description" [(ngModel)]="newProduct.description" name="description" required></textarea>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="quantity" class="form-label custom-label">Quantité</label>
+            <input type="number" class="form-control form-control-sm custom-input" id="quantity" [(ngModel)]="newProduct.quantity" name="quantity" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="price" class="form-label custom-label">Prix</label>
+            <input type="number" class="form-control form-control-sm custom-input" id="price" [(ngModel)]="newProduct.price" name="price" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="category" class="form-label custom-label">Catégorie:</label>
+          <input type="text" class="form-control form-control-sm custom-input" id="category" [(ngModel)]="newProduct.category" name="category" required>
+        </div>
+        <div class="mb-3">
+          <label for="image" class="form-label custom-label">URL de l'image</label>
+          <input type="text" class="form-control form-control-sm custom-input" id="image" [(ngModel)]="newProduct.img" name="image" required>
+        </div>
+        <button type="submit" class="btn btn-primary custom-btn">Créer le produit</button>
+      </form>
+    </div>
+  </div>
+</div>

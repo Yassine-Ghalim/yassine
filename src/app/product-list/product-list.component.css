@@ -1,0 +1,26 @@
+/* Cible tous les divs dans la page */
+/* Styles pour toutes les divs */
+div {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #201e1e;
+  line-height: 1.5;
+}
+
+/* Styles pour la div spécifique avec la classe .special-div */
+div.special-div {
+  background-color: #ffffff; /* Couleur de fond */
+  border: 1px solid #ffffff; /* Bordure */
+  padding: 10px; /* Espacement intérieur */
+  margin-bottom: 20px; /* Espacement en bas */
+  font-weight: bold; /* Gras */
+}
+
+  /* Style personnalisé pour la barre de recherche */
+  .input-group {
+    max-width: 500px; /* Largeur maximale de la barre de recherche */
+  }
+
+
+
+

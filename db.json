@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "id": "1711842829618",
+      "name": "GALAXYY",
+      "description": "sdqsjhqsk",
+      "quantity": 7,
+      "price": 18,
+      "img": "assets/images/image2.jpg",
+      "category": "phone"
+    },
+    {
+      "id": "1711844183205",
+      "name": "DOOGEE T30 PRO ",
+      "description": "Tablette Tactile Android 13 11 pouces, Ecran 2.5K Helio G99 Octa-Core 15GB RAM+256GB ROM /2TB TF, 8580mAh/33W, 20MP Dual SIM 4G LTE +5G WiFi Widevine L1/TÜV CertificatDOOGEE T30 PRO Tablette Tactile Android 13 11 pouces, Ecran 2.5K Helio G99 Octa-Core 15GB RAM+256GB ROM /2TB TF, 8580mAh/33W, 20MP Dual SIM 4G LTE +5G WiFi Widevine L1/TÜV CertificatDOOGEE T30 PRO Tablette Tactile Android",
+      "quantity": 6,
+      "price": 34,
+      "img": "https://m.media-amazon.com/images/I/710dd+fja0L._AC_SR480%2C570_.jpg",
+      "category": "tablet"
+    },
+    {
+      "id": "1711844305362",
+      "name": "YESTEL",
+      "description": "Tablette 11 Pouces Android 13, 16Go + 256Go (1To TF), 2K 2000 x 1200 IPS + 4 Intervenants, Chargement Rapide 18W, Tablette Tactile avec GPS, 5G Wi-FI, 8600mAh, 3 Caméras, avec Étui, Bleu",
+      "quantity": 7,
+      "price": 33,
+      "img": "https://m.media-amazon.com/images/I/71jgMfu4F1L._AC_SR480%2C570_.jpg",
+      "category": "tablet"
+    },
+    {
+      "id": "1711844470213",
+      "name": "LG gram 14Z90R-G.AA78F",
+      "description": " - PC portable 14\" 999g, écran IPS FHD+ 16:10, Plateforme Intel Evo i7-1360P, RAM 16Go, SSD 1To NVMe, Intel Iris Xe, Thunderbolt 4, Windows 11, Clavier AZERTY, Noir",
+      "quantity": 8,
+      "price": 70,
+      "img": "https://m.media-amazon.com/images/I/51gI-MtMSDL._AC_SR146,118_QL66_.jpg",
+      "category": "pc"
+    },
+    {
+      "id": "1711852532799",
+      "name": "Acer Aspire 3 A315-58-7122",
+      "description": "Ordinateur Portable 15,6'' Full HD IPS, PC Portable (Intel Core i7-1165G7, RAM 12Go, SSD 512Go, Intel Iris Xe Graphics, Windows 11) - Clavier AZERTY (Français), Laptop Gris",
+      "quantity": 17,
+      "price": 579,
+      "img": "https://m.media-amazon.com/images/I/71GpFJAsR6S.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "category": "pc"
+    },
+    {
+      "id": "1711862811140",
+      "name": "Samsung Mobile Phone Galaxy S22",
+      "description": " ULTRA/128GB Black SM-S908B   Marque\tSamsung\nNom de modèle\tS908B 8-128 BK\nOpérateur sans fil\tDébloqué\nSystème d'exploitation\tAndroid\nTechnologie cellulaire\t5G\nCapacité de stockage de la mémoire\t128 Go\nTechnologie de connectivité\tUSB\nCouleur\tNoir\nTaille de l'écran\t6,8 Pouces\nTechnologie réseau sans fil",
+      "quantity": 9,
+      "price": 53,
+      "img": "https://m.media-amazon.com/images/I/81BLrR8Dz7L._AC_UL320_.jpg",
+      "category": "phone"
+    },
+    {
+      "id": "1714503440856",
+      "name": "iphon 15",
+      "description": "jshjkqdhsldskjhsldkjhsdjhsjs",
+      "quantity": 7,
+      "price": 91,
+      "img": "https://m.media-amazon.com/images/I/710dd+fja0L._AC_SR480%2C570_.jpg",
+      "category": "tablet"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "email": "ghalimyassine4@gmail.com",
+      "password": "123123123",
+      "roles": [
+        "USER"
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "id": "315a",
+      "productId": "1711842829618",
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "id": "f63f",
+      "productId": "1711842829618",
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "id": "8807",
+      "productId": "1711842829618",
+      "userId": 1,
+      "quantity": 1
+    }
+  ]
+}

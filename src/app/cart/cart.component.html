@@ -1,0 +1,23 @@
+<!-- cart.component.html -->
+
+<div style="margin-top: 60px">
+  <div>
+    <div class="product-container row">
+      <div class="col-md-4" *ngFor="let product of selectedProducts">
+        <div class="product-item white-background">
+          <img [src]="product.img" alt="{{ product.name }}" class="img-fluid rounded-start" style="max-width: 200px; max-height: 100px;" />
+          <h4>{{ product.name }}</h4>
+          <p>{{ product.price }}€</p>
+          <div>
+            <!-- Afficher la quantité et les boutons +/- -->
+            <div class="quantity-control">
+              <button type="button" (click)="decreaseQuantity(product)" class="btn btn-outline-secondary"><i class="bi bi-dash"></i></button>
+              <span>{{ product.quantity }}</span>
+              <button type="button" (click)="increaseQuantity(product)" class="btn btn-outline-secondary"><i class="bi bi-plus"></i></button>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>

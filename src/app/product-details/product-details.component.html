@@ -1,0 +1,41 @@
+
+<div class="container-fluid" >
+  <div class="product row">
+    <div class="col-md-2 product-details">
+      <img [src]="product.img" alt="{{ product.name }}" class="img-fluid" />
+    </div>
+    <div class="col-md-6 product-info">
+      <div class="name font-weight-bold custom-product-name"><h4>{{ product.name }}</h4></div>
+      <div *ngIf="!showDetails" class="description text-muted custom-product-description">
+        {{ product.description | slice:0:100 }} <!-- Afficher les 100 premiers caractères de la description -->
+        <button class="btn btn-link text-muted btn-light" (click)="toggleDetails()"><b>Show more</b></button>
+      </div>
+
+      <div *ngIf="showDetails">
+        <p><b>Prix : {{ product.price }} €</b></p>
+        <p>{{ product.description }}</p>
+        <button class="btn btn-link text-muted btn-light" (click)="toggleDetails()"><b>Hide details</b></button>
+      </div>
+      <div class="quantity text-danger custom-product-quantity"><b>Quantité disponible: {{ product.quantity }}</b></div>
+      <div *ngIf="product._alertMessage" class="alert alert-danger alert-dismissible" role="alert">
+        {{ product._alertMessage }}</div>
+    </div>
+
+    <div class="col-md-3 price">
+      <div>{{ product.price }} €</div>
+      @if (auth.hasRole('USER')) { 
+      <button class="btn btn-outline-primary cta" (click)="addToCart(product)" (click)="purchase2()"><i class="bi bi-cart-plus-fill"></i></button>
+      }
+      @if (auth.hasRole('ADMIN')) { 
+      <button class="btn btn-danger cta" style="margin-left: 10px;" (click)="onDeleteProduct(product.id)">
+        <i class="bi bi-trash"></i>
+      </button>}
+      @if (auth.hasRole('ADMIN')) { 
+        <button class="btn btn-warning cta " style="margin-left: 10px;" (click)="onUpdate(product)">
+          <i class="bi bi-pencil"><a routerLink='/catalog/edit,item.id'></a></i>
+        </button>}
+      <br><br> 
+    </div>
+  </div>
+  <div class="spacer"></div> <!-- Espacement entre les divs -->
+</div>
